@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <title>Frontend Mentor | Ping coming soon page</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="h-screen md:mx-64">
+  <header class="flex flex-col items-center">
+    <img class="mt-16 mb-8" src="./images/logo.svg" alt="logo" />
+    <div>
+      <div class="flex flex-col gap-4 justify-center items-center text-center">
+        <span class="text-3xl">We are launching <strong>soon!</strong></span>
+        <p class="mb-8">Subscribe and get notified</p>
+      </div>
+    </div>
+    <form class="flex flex-col gap-3 md:flex-row mb-6">
+      <input class="p-4 border border-blue-300 w-full rounded-full placeholder:text-blue-200" type="text"
+        placeholder="Your email address..." />
+      <button class="p-4 w-96 rounded-full bg-blue-500 text-white border-0" type="submit">Notify Me</button>
+    </form>
+  </header>
+
+  <main class="grid place-items-center place-content-center">
+    <img class="p-6" src="./images/illustration-dashboard.png" alt="app" />
+  </main>
+  <footer>
+    <div class="flex flex-col items-center gap-6">
+      <ul class="flex justify-evenly w-1/2">
+        <li>Facebook</li>
+        <li>Twitter</li>
+        <li>Instagram</li>
+      </ul>
+      <span class="text-gray-400 mb-4">&copy; Copyright Ping. All rights reserved.</span>
+    </div>
+  </footer>
+
+</body>
+
+</html>
